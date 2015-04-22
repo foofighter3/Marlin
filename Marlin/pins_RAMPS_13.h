@@ -21,19 +21,19 @@
 #define X_DIR_PIN          55
 #define X_ENABLE_PIN       38
 #define X_MIN_PIN           3
-#define X_MAX_PIN           2
+#define X_MAX_PIN           -1
 
 #define Y_STEP_PIN         60
 #define Y_DIR_PIN          61
 #define Y_ENABLE_PIN       56
 #define Y_MIN_PIN          14
-#define Y_MAX_PIN          15
+#define Y_MAX_PIN          -1
 
 #define Z_STEP_PIN         46
 #define Z_DIR_PIN          48
-#define Z_ENABLE_PIN       62
+#define Z_ENABLE_PIN       63
 #define Z_MIN_PIN          18
-#define Z_MAX_PIN          19
+#define Z_MAX_PIN          -1
 #define Z_PROBE_PIN        -1
 
 #define Y2_STEP_PIN        36
@@ -57,7 +57,7 @@
 #define E1_ENABLE_PIN      30
 
 #define SDPOWER            -1
-#define SDSS               53
+#define SDSS               25 // was 53
 #define LED_PIN            13
 
 #if MB(RAMPS_13_EEB) && defined(FILAMENT_SENSOR)  // FMM added for Filament Extruder
