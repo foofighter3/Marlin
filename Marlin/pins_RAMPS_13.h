@@ -34,9 +34,9 @@
 #define Z_ENABLE_PIN       63
 #define Z_MIN_PIN          18
 #define Z_MAX_PIN          -1
-#define Z_PROBE_PIN        -1
+#define Z_PROBE_PIN        18  //may cause compilation error
 
-#define Y2_STEP_PIN        36
+#define Y2_STEP_PIN        63
 #define Y2_DIR_PIN         34
 #define Y2_ENABLE_PIN      30
 
@@ -68,7 +68,7 @@
 
 #ifdef Z_PROBE_ENDSTOP
   // Define a pin to use as the signal pin on Arduino for the Z_PROBE endstop.
-  #define Z_PROBE_PIN 32
+  #define Z_PROBE_PIN 18 //needed?
 #endif
 
 #ifdef FILAMENT_RUNOUT_SENSOR
