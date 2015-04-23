@@ -32,9 +32,9 @@
 #define Z_STEP_PIN         46
 #define Z_DIR_PIN          48
 #define Z_ENABLE_PIN       63
-#define Z_MIN_PIN          18  //might need to be disabled or changed
+#define Z_MIN_PIN          19
 #define Z_MAX_PIN          -1
-#define Z_PROBE_PIN        18  //may cause compilation error, may be different pin
+#define Z_PROBE_PIN        18
 
 #define Y2_STEP_PIN        36
 #define Y2_DIR_PIN         34
